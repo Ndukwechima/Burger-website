@@ -48,7 +48,7 @@ const Hero = () => {
             <h1 className="text-[40px] font-semibold text-yellow-400 tracking-wide">
               Fast Tasty Burger
             </h1>
-            <h1 className="text-[90px] leading-[5rem] uppercase font-bold text-white">
+            <h1 className="text-[60px] md:text-[90px] leading-[5rem] uppercase font-bold text-white">
               Best <br /> Burgers
             </h1>
             <p className="mt-[1rem] text-white text-opacity-70 text-[18px]">
@@ -77,7 +77,7 @@ const Hero = () => {
             <h1 className="text-[40px] font-semibold text-yellow-400 tracking-wide">
               Best Food Burger
             </h1>
-            <h1 className="text-[90px] leading-[5rem] uppercase font-bold text-white">
+            <h1 className="text-[60px] md:text-[90px]  leading-[5rem] uppercase font-bold text-white">
               Top <br /> Burgers
             </h1>
             <p className="mt-[1rem] text-white text-opacity-70 text-[18px]">

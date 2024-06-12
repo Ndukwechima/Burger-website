@@ -3,7 +3,7 @@ import { Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./components/Navigation/ResponsiveNav";
 
-const barlow_Condensed = Barlow_Condensed({
+const barlowCondensed = Barlow_Condensed({
   weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={barlow_Condensed.className}>
+      <body className={barlowCondensed.className}>
         <ResponsiveNav />
         {children}
       </body>
