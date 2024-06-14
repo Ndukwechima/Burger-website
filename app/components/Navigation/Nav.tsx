@@ -10,7 +10,7 @@ interface NavProps {
 
 const Nav = ({ openNav }: NavProps) => {
   return (
-    <div className="h-[12vh] bg-white px-2">
+    <div className="h-[12vh] bg-white px-2 fixed top-0 z-50 left-0 right-0">
       <div className="sm:w-[90%] mx-auto flex h-[100%] items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
